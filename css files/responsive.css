@@ -1,0 +1,274 @@
+@media (max-width:799px) {
+
+    .section-p1 {
+        padding: 20px 40px;
+      }
+      
+      .section-m1 {
+        margin: 20px 0;
+      }
+
+    /* Global Styles */
+
+    h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        margin: 12px 0 16px 0;
+    }
+
+    .section-p1 {
+        padding: 25px 50px;
+    }
+
+    .section-m1 {
+        margin: 25px 0;
+    }
+
+    .logo {
+        width: 65px;
+    }
+
+    #header {
+        padding-inline: 40px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding-top: 70px;
+        gap: 10;
+        position: fixed;
+        top: 0;
+        right: -500px;
+        height: 1000px;
+        width: 500px;
+        background: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        transform: 0.4s;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile i {
+        color: #1a1a1a;
+        font-size: 22px;
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    #cart-btn {
+        display: none;
+    }
+
+    /* ============================================ */
+
+    #hero {
+        height: 60vh;
+        background-position: top 30% right 30%;
+    }
+
+    #hero,
+    #features,
+    #featured-Product1,
+    #banner,
+    #sm-banner {
+        gap: 5px;
+        padding-inline: 45px;
+    }
+
+    #banner h2 {
+        font-size: 1.5rem;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+    #sm-banner{
+        gap: 15px;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 330px;
+        height: 35vh;
+        padding-left: 20px;
+    }
+
+    #sm-banner h4 {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    #sm-banner h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-block: 10px;
+    }
+
+    #sm-banner span {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    button.white {
+        font-size: 11px;
+        font-weight: 500;
+        padding: 11px 18px;
+    }
+
+    #banner3 h3 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    #banner3 h2 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    #page-header {
+        /* border: 1px solid red; */
+        height: 30vh;
+    }
+
+    /* padding-ipad */
+    .padding-ipad {
+        padding-inline: 40px;
+    }
+}
+
+@media (max-width:477px) {
+
+    .section-p1 {
+        padding: 10px 20px;
+      }
+      
+      .section-m1 {
+        margin: 10px 0;
+      }
+
+    .logo {
+        width: 55px;
+    }
+
+    #header,
+    #hero,
+    #features,
+    #featured-Product1,
+    #banner,
+    #sm-banner {
+        gap: 5px;
+        padding-inline: 25px;
+    }
+
+    #hero {
+        height: 48vh;
+    }
+
+    #features .fe-box {
+        width: 140px;
+        padding: 12px 12px;
+        border-radius: 5px;
+        margin-block: 8px;
+    }
+
+    #header {
+        padding: 5px 25px;
+    }
+
+    #banner {
+        height: 28vh;
+    }
+
+    #banner h4 {
+        font-size: 14px;
+    }
+
+    #banner h2 {
+        font-size: 1.1rem;
+    }
+
+    button.normal {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px 15px;
+    }
+
+    .pro-container {
+        justify-content: center;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+    .button-img {
+        margin-bottom: 5px;
+    }
+
+    #banner3 {
+        flex-wrap: wrap;
+    }
+
+    #featured-Product1 .pro {
+        width: 100%;
+    }
+
+    #banner3 .banner-box {
+        padding: 10px;
+    }
+
+    #banner3 h2 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+    /* padding-mobile */
+    .padding-mobile {
+        padding-inline: 20px;
+    }
+}

@@ -1,0 +1,29 @@
+#page-header{
+    /* border: 1px solid red; */
+    background-image: url(/img/banner/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-header h2,#page-header p{
+    color: #fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}

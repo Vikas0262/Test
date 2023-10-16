@@ -1,0 +1,64 @@
+#pro-details .left-image{
+    /* border: 2px solid blue; */
+    width: 40%;
+    margin-right: 50px;
+
+}
+
+.small-image-group{
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+.small-image-col{
+    /* border: 1px solid; */
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#pro-details{
+    /* border: 1px solid green; */
+    /* margin-top: 20px; */
+}
+
+
+#pro-details .right-content{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.right-content h5{
+    padding: 40px 0 20px 0;
+}
+.right-content h3{
+    font-style: 26px;
+    margin-bottom: 20px;
+}
+.right-content select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.right-content input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.right-content button{
+    background: #088178;
+    color: #fff;
+}
+.right-content input:focus{
+    outline: none;
+}
+
+.right-content p{
+    line-height: 25px;
+}
+
